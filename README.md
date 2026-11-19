@@ -38,3 +38,7 @@ Background removal needs Google Play services on the device; the model downloads
 ## Disclaimer
 
 This is an independent project. It is not affiliated with, endorsed by, or sponsored by WhatsApp or Meta. "WhatsApp" is a trademark of its owner and is used here only to describe compatibility.
+
+## License
+
+[MIT](LICENSE)
