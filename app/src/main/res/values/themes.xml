@@ -1,0 +1,29 @@
+<resources>
+    <style name="Theme.StickerMaker" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/m_primary</item>
+        <item name="colorOnPrimary">@color/m_on_primary</item>
+        <item name="colorPrimaryContainer">@color/m_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/m_on_primary_container</item>
+        <item name="colorSecondary">@color/m_secondary</item>
+        <item name="colorOnSecondary">@color/m_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/m_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/m_on_secondary_container</item>
+        <item name="colorTertiary">@color/m_tertiary</item>
+        <item name="colorOnTertiary">@color/m_on_tertiary</item>
+        <item name="colorTertiaryContainer">@color/m_tertiary_container</item>
+        <item name="colorOnTertiaryContainer">@color/m_on_tertiary_container</item>
+        <item name="android:colorBackground">@color/m_surface</item>
+        <item name="colorOnBackground">@color/m_on_surface</item>
+        <item name="colorSurface">@color/m_surface</item>
+        <item name="colorOnSurface">@color/m_on_surface</item>
+        <item name="colorSurfaceVariant">@color/m_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/m_on_surface_variant</item>
+        <item name="colorOutline">@color/m_outline</item>
+        <item name="colorOutlineVariant">@color/m_outline_variant</item>
+        <item name="colorSurfaceContainerLowest">@color/m_surface_lowest</item>
+        <item name="colorSurfaceContainerLow">@color/m_surface_low</item>
+        <item name="colorSurfaceContainer">@color/m_surface_container</item>
+        <item name="colorSurfaceContainerHigh">@color/m_surface_high</item>
+        <item name="colorSurfaceContainerHighest">@color/m_surface_highest</item>
+    </style>
+</resources>

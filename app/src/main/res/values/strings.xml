@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">Sticker Maker</string>
+
+    <!-- Main -->
+    <string name="create_title">Create</string>
+    <string name="from_photo">Sticker from photo</string>
+    <string name="from_video">GIF or sticker from video</string>
+    <string name="your_packs">Your sticker packs</string>
+    <string name="no_packs">No packs yet.\nCreate a sticker and it will be saved into a pack.</string>
+    <string name="type_animated">Animated</string>
+    <string name="type_static">Static</string>
+
+    <!-- Gallery -->
+    <string name="pick_photo">Pick a photo</string>
+    <string name="pick_video">Pick a video or GIF</string>
+    <string name="search_hint">Search name or album</string>
+    <string name="album_hint">Album</string>
+    <string name="all_albums">All albums</string>
+    <string name="permission_needed">Sticker Maker needs access to your photos and videos to show them here.</string>
+    <string name="grant_access">Allow access</string>
+    <string name="limited_access">You gave access to only some items. Tap to choose more.</string>
+    <string name="use_system_picker">Browse with system picker</string>
+    <string name="nothing_found">Nothing found</string>
+
+    <!-- Editors -->
+    <string name="sticker_from_photo">Sticker from photo</string>
+    <string name="gif_from_video">GIF from video</string>
+    <string name="from_gif_title">Sticker from GIF</string>
+    <string name="from_webp_title">Sticker from animated WebP</string>
+    <string name="shape">Shape</string>
+    <string name="shape_square">Square</string>
+    <string name="shape_rounded">Rounded</string>
+    <string name="shape_circle">Circle</string>
+    <string name="white_outline">White outline</string>
+    <string name="remove_background">Remove background</string>
+    <string name="removing_background">Removing background…</string>
+    <string name="downloading_model">Downloading the background remover (first time only)…</string>
+    <string name="error_background">Couldn\'t remove the background: %1$s</string>
+    <string name="error_no_subject">No clear subject found in this picture</string>
+    <string name="caption_hint">Caption (optional)</string>
+    <string name="fit">Fit</string>
+    <string name="fill">Fill</string>
+    <string name="crop_help">Pinch to zoom, drag to move. Double-tap to switch fit / fill.</string>
+    <string name="add_to_pack">Add to sticker pack</string>
+    <string name="trim">Trim</string>
+    <string name="range_label">%1$s → %2$s · output %3$s, %4$d frames</string>
+    <string name="fps">Frames per second</string>
+    <string name="speed">Speed</string>
+    <string name="gif_options">GIF options</string>
+    <string name="keep_aspect">Keep original shape (no square crop, GIF only)</string>
+    <string name="make_gif">Make GIF</string>
+    <string name="make_sticker">Animated sticker</string>
+    <string name="making_gif">Creating GIF…</string>
+    <string name="making_sticker">Creating animated sticker…</string>
+    <string name="preview_title">Preview</string>
+    <string name="sticker_info">%1$d KB · %2$d frames</string>
+    <string name="gif_saved">Saved to Pictures/StickerMaker · %1$d KB</string>
+    <string name="send_whatsapp">Send to WhatsApp</string>
+    <string name="share">Share…</string>
+    <string name="done">Done</string>
+    <string name="discard">Discard</string>
+
+    <!-- Packs -->
+    <string name="choose_pack">Add to which pack?</string>
+    <string name="choose_animated_pack">Add to which animated pack?</string>
+    <string name="new_pack_option">➕ New pack…</string>
+    <string name="new_pack">New sticker pack</string>
+    <string name="pack_name">Pack name</string>
+    <string name="publisher">Author</string>
+    <string name="default_publisher">Me</string>
+    <string name="create">Create</string>
+    <string name="added_to_pack">Added to “%1$s”</string>
+    <string name="open_pack">Open pack</string>
+    <string name="keep_editing">Keep editing</string>
+    <string name="add_to_whatsapp">Add to WhatsApp</string>
+    <string name="new_sticker">New sticker</string>
+    <string name="pack_full">This pack is full (30 stickers)</string>
+    <string name="need_three">Add at least 3 stickers to send this pack to WhatsApp (max 30).</string>
+    <string name="whatsapp_missing">WhatsApp is not installed on this phone.</string>
+    <string name="whatsapp_unsupported">This WhatsApp version doesn\'t support adding sticker packs. Update WhatsApp and try again.</string>
+    <string name="choose_whatsapp">Add to which WhatsApp?</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="whatsapp_business">WhatsApp Business</string>
+    <string name="pack_added">Pack sent to WhatsApp</string>
+    <string name="whatsapp_error">WhatsApp rejected the pack</string>
+    <string name="rename">Edit name / author</string>
+    <string name="delete_pack">Delete pack</string>
+    <string name="delete_pack_confirm">Delete “%1$s” and all its stickers?</string>
+    <string name="delete_sticker_confirm">Delete this sticker?</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="close">Close</string>
+
+    <!-- Errors -->
+    <string name="error_generic">Something went wrong</string>
+    <string name="error_image">Couldn\'t open this image</string>
+    <string name="error_video">Couldn\'t open this video</string>
+    <string name="error_no_frames">Couldn\'t read any frames from the video</string>
+    <string name="error_clip_too_short">The selected clip is too short. Make the range longer or raise the frames per second.</string>
+    <string name="error_sticker_too_long">Animated stickers can be at most 10 seconds long (after speed). Shorten the range or speed it up.</string>
+    <string name="error_gif_too_long">GIFs are limited to 30 seconds here. Shorten the range or speed it up.</string>
+
+    <plurals name="filler_hint">
+        <item quantity="one">WhatsApp needs at least 3 stickers, so %1$d blank sticker will be added when you send this pack. It goes away once you add more.</item>
+        <item quantity="other">WhatsApp needs at least 3 stickers, so %1$d blank stickers will be added when you send this pack. They go away once you add more.</item>
+    </plurals>
+    <plurals name="pack_subtitle">
+        <item quantity="one">%1$d sticker · %2$s</item>
+        <item quantity="other">%1$d stickers · %2$s</item>
+    </plurals>
+    <plurals name="added_to_pack_msg">
+        <item quantity="one">The pack now has %1$d sticker.</item>
+        <item quantity="other">The pack now has %1$d stickers.</item>
+    </plurals>
+    <plurals name="added_need_more">
+        <item quantity="one">The pack now has %1$d sticker. Until it has 3, blank stickers fill the gap in WhatsApp.</item>
+        <item quantity="other">The pack now has %1$d stickers. Until it has 3, blank stickers fill the gap in WhatsApp.</item>
+    </plurals>
+</resources>
